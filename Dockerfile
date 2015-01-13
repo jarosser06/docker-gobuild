@@ -9,3 +9,5 @@ RUN mkdir /mnt/project
 WORKDIR /mnt/project
 
 VOLUME ["/mnt/project"]
+
+CMD ["make"]
